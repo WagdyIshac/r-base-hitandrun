@@ -6,4 +6,4 @@ RUN apt-get update \
 
 RUN Rscript -e "install.packages('hitandrun')"
 
-CMD ["bash"]
+CMD ["R"] 
